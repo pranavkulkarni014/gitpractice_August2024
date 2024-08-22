@@ -1,10 +1,10 @@
 class test
 {
 
-public int add()
+public int add(int a, int b)
 {
 	float sum=0;
-	int a=2, b=2;
+	
 	
 	sum=a+b;
 	System.out.println("printing sum:::"+sum);
@@ -14,7 +14,8 @@ public int add()
 public static void main (String args[])
 {
 
-  test obj1=new test();	
+  int a=5,b=10;
+  test obj1=new test(int a, int b);	
   obj1.add();
 }
 
